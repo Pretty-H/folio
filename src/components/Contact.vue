@@ -15,11 +15,14 @@
     </p>
 
     <div class="flex flex-wrap justify-center gap-8 mt-10 text-purple-800">
-      <!-- Exemple d’icônes ou de liens -->
-      <a href="mailto:exemple@email.com" class="hover:underline">✉️ exemple@email.com</a>
-      <a href="tel:+1234567890" class="hover:underline">📞 +123 456 7890</a>
-      <a href="https://www.linkedin.com/in/tonprofil" target="_blank" class="hover:underline">🔗 LinkedIn</a>
-      <a href="https://github.com/tonprofil" target="_blank" class="hover:underline">💻 GitHub</a>
-    </div>
+      <a href="mailto:hajainabalisama@email.com" class="hover:underline">✉️ hajainabalisama@email.com</a>
+      <a href="tel:+261347602905" class="hover:underline">📞 +261 34 76 029 05</a>
+      <a href="https://github.com/Pretty-H/portfolio.git" target="_blank" class="hover:underline">💻 GitHub</a>
+    </div><br></br>
+
+
+        <p class="text-center text-gray-400 text-xs mt-10">
+        © 2025 RANDRIANARISOA Hasin'Ny Avo Hajaina Balisama||
+        </p>
   </section>
 </template>

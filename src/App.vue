@@ -1,10 +1,6 @@
 <template>
-  <div
-    id="app"
-    class="h-screen overflow-hidden relative bg-gradient-to-tr from-purple-300 via-purple-100 to-purple-300"
-  >
+  <div id="app" class="h-screen overflow-hidden relative">
     <BackgroundFlowers />
-
     <div
       ref="scrollContainer"
       class="h-full w-full overflow-y-scroll snap-y snap-mandatory scroll-smooth z-10"

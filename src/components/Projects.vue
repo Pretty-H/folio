@@ -4,11 +4,10 @@
       Mes Projets
     </h2>
 
-    <!-- Cartes zigzag -->
     <div
       v-for="(project, index) in projects"
       :key="project.title"
-      :class="[
+      :class="[ 
         'border-2 rounded-2xl p-6 mb-6 w-11/12 max-w-3xl cursor-pointer transition-transform duration-300 hover:scale-[1.02] bg-transparent shadow',
         index % 2 === 0 ? 'ml-auto' : 'mr-auto'
       ]"
@@ -24,13 +23,13 @@
       />
     </div>
 
-    <!-- MODAL -->
+    <!-- ✅ Modale avec effet flou -->
     <div
       v-if="selectedProject"
-      class="fixed inset-0 bg-black/30 flex items-center justify-center z-50"
+      class="fixed inset-0 z-50 bg-black/20 backdrop-blur-md flex items-center justify-center"
     >
       <div
-        class="bg-transparent p-6 rounded-2xl w-[95%] max-w-6xl overflow-y-auto max-h-[90vh] border-2 border-purple-800 shadow-lg"
+        class="bg-white/20 backdrop-blur-xl p-6 rounded-2xl w-[95%] max-w-6xl overflow-y-auto max-h-[90vh] border border-purple-800 shadow-xl"
       >
         <div class="flex justify-between items-center mb-6">
           <h3 class="text-3xl font-bold text-purple-800">
@@ -44,20 +43,17 @@
           </button>
         </div>
 
-        <!-- Images zigzag dans la modale -->
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <!-- ✅ Images agrandies -->
+        <div class="flex flex-col gap-6 items-center">
           <div
             v-for="(img, index) in selectedProject.images"
             :key="index"
-            :class="[
-              'rounded-2xl border border-purple-800 overflow-hidden bg-transparent transition-all',
-              index % 2 === 0 ? 'translate-y-2' : '-translate-y-2'
-            ]"
+            class="w-full"
           >
             <img
               :src="img"
               alt="Aperçu"
-              class="w-full max-h-[80vh] object-contain bg-transparent"
+              class="w-full h-auto object-contain rounded-2xl border border-purple-800"
             />
           </div>
         </div>
