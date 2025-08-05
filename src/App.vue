@@ -1,40 +1,31 @@
 <template>
-  <div id="app" class="h-screen overflow-hidden relative">
-    <BackgroundFlowers />
-    <div
-      ref="scrollContainer"
-      class="h-full w-full overflow-y-scroll snap-y snap-mandatory scroll-smooth z-10"
-      tabindex="0"
-    >
-      <Home class="snap-start" />
-      <About class="snap-start" />
-      <Skills class="snap-start" />
-      <Experience class="snap-start" />
-      <Projects class="snap-start" />
-      <Contact class="snap-start" />
-    </div>
+  <div id="app" class="relative h-screen overflow-y-scroll overflow-x-hidden hide-scrollbar">
+      <BackgroundFlowers />
+      <Navbar/>
+      <Home  />
+      <About  />
+      <Skill  />
+      <Experience  />
+      <Project  />
+      <Contact/>
+      <a href="/CV Faux.jpg" download class="fixed  flex items-center text-white justify-center bottom-7 right-7 z-20 w-[180px] h-[40px] bg-purple-800 rounded-[15px] ">
+        Télécharger CV
+      </a>
+      <div class="flex items-center h-[80px] justify-center">
+         <p class="text-gray-400 text-xs">
+        © 2025 RANDRIANARISOA Hasin'Ny Avo Hajaina Balisama||
+        </p>
+      </div>
   </div>
 </template>
 
 <script setup>
-import { ref } from 'vue'
 import BackgroundFlowers from './components/BackgroundFlowers.vue'
-import Home from './components/Home.vue'
 import About from './components/About.vue'
-import Skills from './components/Skills.vue'
+import Skill from './components/Skill.vue'
 import Experience from './components/Experience.vue'
-import Projects from './components/Projects.vue'
+import Project from './components/Project.vue'
 import Contact from './components/Contact.vue'
-
-const scrollContainer = ref(null)
+import Navbar from './components/Navbar.vue'
+import Home from './components/Home.vue'
 </script>
-
-<style>
-#app > div::-webkit-scrollbar {
-  display: none;
-}
-#app > div {
-  -ms-overflow-style: none;
-  scrollbar-width: none;
-}
-</style>
