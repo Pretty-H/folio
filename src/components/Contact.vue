@@ -10,7 +10,7 @@
             <div class="w-[40px] h-[3px] bg-purple-500 rounded-[20px]"></div>
           </div>
           <div class="flex flex-col h-auto gap-7 pl-[10px]">
-              <div class="flex flex-col text-[14px] mt-[20px] gap-5">    
+              <div class="flex flex-col text-[17px] mt-[20px] gap-5">    
                 <p class="">
                   Je reste à votre disposition par email, téléphone ou via les réseaux sociaux pour toute collaboration, projet ou échange lié au développement. N'hésitez pas à me contacter, je vous répondrai dans les plus brefs délais
                 </p>

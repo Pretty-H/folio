@@ -9,7 +9,7 @@
             <h2 class="text-[18px] hello">Mes projet</h2>
             <div class="w-[50px] h-[3px] bg-purple-500 rounded-[20px]"></div>
           </div>
-          <div class="flex flex-col text-[14px] gap-5">    
+          <div class="flex flex-col text-[16px] gap-5">    
             <p class="leading-loose">
               Chaque projet est une histoire dont je tire fierté et nouveaux apprentissages.
             </p>

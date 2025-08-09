@@ -9,7 +9,7 @@
             <h2 class="text-[18px] hello">Mes compétences</h2>
             <div class="w-[50px] h-[3px] bg-purple-500 rounded-[20px]"></div>
           </div>
-          <div class="flex flex-col text-[14px] gap-5">    
+          <div class="flex flex-col text-[16px] gap-5">    
             <p class="leading-loose">
               Passionné par le développement web, je maîtrise plusieurs technologies modernes que j'enrichis constamment à travers mes projets.
             </p>
@@ -79,10 +79,10 @@ export default {
     return {
       skills: {
         languages: [
-          { name: 'C#', level: 85 },
-          { name: 'JavaScript', level: 70 },
-          { name: 'Python', level: 65 },
-          { name: 'PHP', level: 65 }
+          { name: 'C#', level: 50 },
+          { name: 'JavaScript', level: 58 },
+          { name: 'Python', level: 64 },
+          { name: 'PHP', level:75 }
         ],
         frameworks: [
           { name: 'Vue.js', level: 70 },
@@ -90,7 +90,7 @@ export default {
         ],
         databases: [
           { name: 'MySQL', level: 70 },
-          { name: 'SQLite', level: 70 },
+          { name: 'SQLite', level: 60 },
         ],
       }
     }

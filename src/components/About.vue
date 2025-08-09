@@ -14,7 +14,7 @@
     <div class="flex items-center  justify-center w-[100%] h-[80%] gap-6 ">
     <div class="flex flex-col items-center justify-center h-auto mt-[80px] md:mt-0 md:h-[90%] md:w-[80%] w-[90%] rounded-[20px] backdrop-blur-md bg-purple-700/10 py-10 px-5 md:py-0 md:px-[120px] gap-[50px]">
     <div>
-         <p class="text-[14px] font-thin text-white leading-loose">
+         <p class="text-[19px] font-thin text-white leading-loose">
               Curieuse et passionnée par l’informatique, je suis en deuxième année à l’ENI. Je me forme
                activement au développement web, tout en explorant aussi le domaine des
                 réseaux (ce n’est pas encore mon point fort, mais je m’y intéresse). 

@@ -9,7 +9,7 @@
             <h2 class="text-[18px] hello">Mes expériences</h2>
             <div class="w-[50px] h-[3px] bg-purple-500 rounded-[20px]"></div>
           </div>
-          <div class="flex flex-col text-[14px] gap-5">    
+          <div class="flex flex-col text-[16px] gap-5">    
             <p class="leading-loose">
               Mes expériences variées m'ont permis de développer des solutions concrètes et innovantes.
             </p>
@@ -24,7 +24,7 @@
                <div class="flex items-center justify-center text-[17px] font-bold text-center h-[100px]"> 
                   Stage à venir
                </div>
-               <div class="flex flex-col text-[14px] px-[20px]">    
+               <div class="flex flex-col text-[18px] px-[20px]">    
                   <p class="leading-loose">
                     ◉ Mes expériences variées m'ont permis de développer des solutions concrètes et innovantes.
                   </p>
@@ -35,7 +35,7 @@
                <div class="flex items-center justify-center text-[17px] font-bold text-center h-[100px] px-[50px]"> 
                   Travail en groupe et projets scolaires
                </div>
-                <div class="flex flex-col text-[14px] px-[20px]">    
+                <div class="flex flex-col text-[18px] px-[20px]">    
                   <div class="leading-loose">
                     ◉ Analyse et modélisation de bases de données avec la méthode MERISE (MCD, MLD, MCT).
                   </div>
@@ -51,7 +51,7 @@
               <div class="flex items-center justify-center text-[17px] font-bold text-center h-[100px]"> 
                  Compétences développées
                </div>
-                <div class="flex flex-col text-[14px] px-[20px]">    
+                <div class="flex flex-col text-[18px] px-[20px]">    
                   <p class="leading-loose">
                     ◉ Travail en équipe et communication.
                   </p>
