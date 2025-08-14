@@ -95,7 +95,7 @@ export default {
 }
 
 .typewriter {
-    ont-family : 'Roboto', serif;
+    font-family : 'Roboto', serif;
     font-weight : normal;
   white-space: nowrap;
   border-right: 2px solid purple;

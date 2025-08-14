@@ -29,12 +29,12 @@ const backgroundStyle = ref({
 
 let intervalId = null
 
-onMounted(() => {
-  intervalId = setInterval(() => {
-    currentImageIndex.value = (currentImageIndex.value + 1) % images.length
-    backgroundStyle.value.backgroundImage = `url(${images[currentImageIndex.value]})`
-  }, 3000) // 10 secondes
-})
+// onMounted(() => {
+//   intervalId = setInterval(() => {
+//     currentImageIndex.value = (currentImageIndex.value + 1) % images.length
+//     backgroundStyle.value.backgroundImage = `url(${images[currentImageIndex.value]})`
+//   }, 3000) // 10 secondes
+// })
 
 onUnmounted(() => {
   clearInterval(intervalId)
