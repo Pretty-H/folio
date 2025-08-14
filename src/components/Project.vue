@@ -49,11 +49,17 @@
                 </button>
               </div>
               <div class="flex items-end px-[20px] py-[10px] text-[14px]">
-                <button
-                  @click="openModal(project)"
-                  class="text-white text-sm bg-purple-600 hover:bg-purple-800 px-4 py-1 rounded-[10px] shadow"
-                >
-                  Voir code
+                <button>
+                    <a
+                      v-if="project.github"
+                      :href="project.github"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="text-white text-sm bg-purple-600 hover:bg-purple-800 px-4 py-1 rounded-[10px] shadow"
+                    >
+                      Voir code
+                    </a>
+                    <span v-else class="text-gray-400 italic text-sm">Pas de code en ligne</span>
                 </button>
               </div>
             </div>
@@ -107,21 +113,13 @@ const selectedProject = ref(null)
 
 const projects = ref([
   {
-    title: 'Gestion de bibliothèque (C++)',
-    images: [
-      '/images/biblio1.png',
-      '/images/biblio2.png',
-      '/images/biblio3.png',
-      '/images/biblio4.png'
-    ]
-  },
-  {
     title: 'Gestion de prêt bancaire (Vue.js)',
     images: [
       '/images/vue1.png',
       '/images/vue2.png',
       '/images/vue3.png'
-    ]
+    ],
+    github: 'https://github.com/Pretty-H/projet-vue.git' 
   },
   {
     title: 'Gestion de prêt bancaire (PHP)',
@@ -129,7 +127,8 @@ const projects = ref([
       '/images/1php.png',
       '/images/2php.png',
       '/images/3php.png'
-    ]
+    ],
+    github: 'https://github.com/Pretty-H/projet-php.git'
   }
 ])
 

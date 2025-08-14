@@ -41,19 +41,19 @@
         :class="{ 'w-[60vw]': isMenuOpen, 'w-0': !isMenuOpen }"
       >
         <div @click="scrollToSectionAndClose('P1')" class="hover:text-blue-600 tracking-wide border-b border-transparent hover:border-white transition-colors duration-200">
-          Home
+          Accueil
         </div>
         <div @click="scrollToSectionAndClose('P2')" class="hover:text-blue-600 tracking-wide border-b border-transparent hover:border-white transition-colors duration-200">
-          About
+          Propos
         </div>
         <div @click="scrollToSectionAndClose('P3')" class="hover:text-blue-600 tracking-wide border-b border-transparent hover:border-white transition-colors duration-200">
-          Skills
+          Compétence
         </div>
         <div @click="scrollToSectionAndClose('P4')" class="hover:text-blue-600 tracking-wide border-b border-transparent hover:border-white transition-colors duration-200">
           Experience
         </div>
         <div @click="scrollToSectionAndClose('P5')" class="hover:text-blue-600 tracking-wide border-b border-transparent hover:border-white transition-colors duration-200">
-          Project
+          Projet
         </div>
       </div>
     </div>

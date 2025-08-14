@@ -80,17 +80,17 @@ export default {
       skills: {
         languages: [
           { name: 'C#', level: 50 },
-          { name: 'JavaScript', level: 58 },
-          { name: 'Python', level: 64 },
-          { name: 'PHP', level:75 }
+          { name: 'JavaScript', level: 53 },
+          { name: 'Python', level: 55 },
+          { name: 'PHP', level:64 }
         ],
         frameworks: [
-          { name: 'Vue.js', level: 70 },
+          { name: 'Vue.js', level: 65 },
           { name: 'TailwindCSS', level: 50 },
         ],
         databases: [
-          { name: 'MySQL', level: 70 },
-          { name: 'SQLite', level: 60 },
+          { name: 'MySQL', level: 60 },
+          { name: 'SQLite', level: 50 },
         ],
       }
     }
